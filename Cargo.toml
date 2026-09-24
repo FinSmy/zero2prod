@@ -11,7 +11,7 @@ path = "src/main.rs"
 name = "zero2prod"
 
 [dependencies]
-actix-web = "4"
+actix-web = "4.15.0"
 config = "0.14"
 reqwest = "0.13.5"
 serde = { version = "1", features = ["derive"] }
@@ -24,6 +24,7 @@ tracing-bunyan-formatter = "0.3.10"
 tracing-log = "0.2.0"
 secrecy = { version = "0.8", features = ["serde"] }
 tracing-actix-web = "0.7.25"
+h2 = "0.4.19"
 
 [dependencies.sqlx]
 version = "0.8"
